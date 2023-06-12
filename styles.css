@@ -1,0 +1,50 @@
+
+body {
+  font-family: 'Gill Sans';
+  font-size: 18px;
+}
+
+header, footer {
+  background-color: #4cc0d5;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  background-color: aqua;
+}
+
+p {
+  color: black;
+  background-color: cornsilk;
+}
+#my-image {
+  box-shadow: 0 0 2px 1px black;
+}
+
+ ul {
+  list-style-type: square;
+}
+
+li:nth-child(odd) {
+  background-color:yellow;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: rgb(202, 136, 38);
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+nav a:hover,
+nav a:focus {
+  background-color:rosybrown;
+  color:white;
+}
